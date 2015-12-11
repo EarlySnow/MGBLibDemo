@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of MGBLibDemo."
 
 
-  #s.homepage     = "http://EXAMPLE/MGBLibDemo"
+  s.homepage     = "https://github.com/mx-xiong/MGBLibDemo"
  
 
-  #s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = { "xmx" => "mx.xiong123@gmail.com" }
 
@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
    s.platform     = :ios
    s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "git@github.com:mx-xiong/MGBLibDemo.git" }
+  s.source       = { :git => "git@github.com:mx-xiong/MGBLibDemo.git" , :tag => "0.0.1" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m,cpp,mm,c}"
+  s.source_files  = "Classes/**/*.{h,m,cpp,mm,c}"
 
 
    s.requires_arc = true
